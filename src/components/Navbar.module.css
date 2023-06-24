@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes anim {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+#Navbar{
+    margin-top: 21px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    color: #27B26C;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    animation: anim 2.5s ease-in-out infinite;
+}
+
+

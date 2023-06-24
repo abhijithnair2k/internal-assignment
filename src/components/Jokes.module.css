@@ -1,0 +1,58 @@
+
+
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#usersHome{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#cards{
+    /* border-radius: 15px; */
+
+    height: 170px;
+    width: 270px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+
+}
+#cards:hover{
+    transform: scale(1.02);
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+    box-shadow:0 0 0 13pxx black;
+}
+#cards>h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    /* margin-bottom: 30px; */
+
+}
+
+#item{
+    margin-bottom: 15px;
+}
+
+
+
+
+
